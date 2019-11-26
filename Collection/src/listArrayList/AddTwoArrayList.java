@@ -1,4 +1,4 @@
-package listArryLinkedlist;
+package listArrayList;
 
 import java.util.*;
 class AddTwoArrayList

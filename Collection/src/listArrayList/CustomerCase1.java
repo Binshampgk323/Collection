@@ -1,7 +1,6 @@
-package listArryLinkedlist;
+package listArrayList;
 
-public class CustomerCaseDelete1 {
-	
+public class CustomerCase1 {
 	String name,address,number,mail,proof,proofid;
 
 	public String getName() {
@@ -51,6 +50,5 @@ public class CustomerCaseDelete1 {
 	public void setProofid(String proofid) {
 		this.proofid = proofid;
 	}
-
 
 }
