@@ -1,6 +1,7 @@
-package setHashSet;
-
+package setTreeSet;
 import java.util.Comparator;
+import java.util.NavigableMap;
+
 
 public class Symbol implements Comparator<NewCard> {
 

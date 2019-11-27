@@ -1,11 +1,14 @@
-package setHashSet;
-import java.util.HashSet;
+package setTreeSet;
+
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
-public class HashSet2 {
 
+import setTreeSet.NewCard;
+import setTreeSet.Symbol;
+
+public class TreeSet1 {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		String symbol;int num,count=0;
@@ -32,5 +35,6 @@ public class HashSet2 {
 		System.out.println(ca.getSymbol()+" "+ca.getNum());
 	}
 	}
+
 
 }

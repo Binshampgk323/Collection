@@ -48,6 +48,13 @@ public class Case2ArrayList {
 			}
 			else if(ch==3)
 			{
+				if(list.isEmpty())
+				{
+					System.out.println("There is no application");
+
+				}
+				else
+				{
 				Iterator itr=list.iterator();
 				int i=1;
 						while(itr.hasNext())
@@ -60,10 +67,11 @@ public class Case2ArrayList {
 				
 					list.remove(n-1);
 					System.out.println("App is uninstalled successfully");
-				
+				}
 			}
 			else if(ch==4)
 			{
+				System.out.println("Successfully terminated");
 				exit();
 			}
 			else

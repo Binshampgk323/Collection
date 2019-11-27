@@ -1,4 +1,4 @@
-package setHashSet;
+package setTreeSet;
 
 public class NewCard {
 	String symbol;
@@ -15,5 +15,6 @@ public class NewCard {
 		this.num = num;
 	}
 	int num;
+
 
 }
